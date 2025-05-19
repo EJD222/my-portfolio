@@ -1,1 +1,17 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap');
 @import "tailwindcss";
+
+@font-face {
+    font-family: "DRUZHOK";
+    src: url("./assets/fonts/DRUZHOK.otf") format("opentype");
+}
+
+@font-face {
+    font-family: "Feogra";
+    src: url("./assets/fonts/Feogra-Demo.otf") format("opentype");
+}
+
+@theme {
+    --font-dmSans: "Dm Sans", 'sans-serif';
+    --color-darkBlue: #0014CC
+}
